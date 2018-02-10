@@ -11,7 +11,7 @@ const groom = (data) => {
 }
 
 const getAll = () => {
-	return axios.get('http://localhost:3004/data')
+	return axios.get('http://localhost:3002/api')
 			.then(response => { return groom(response.data) })
 			.catch(error => console.log("error in getAll in metadata"))
 }

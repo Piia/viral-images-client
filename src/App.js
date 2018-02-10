@@ -35,9 +35,9 @@ class App extends React.Component {
       <div>
         <h1>Viral Images From Imgur</h1>
           <div id="search">
-            search: <input 
-                        value={this.state.searchKey} 
-                        onChange={this.handleSearchField} />
+            <input  value={this.state.searchKey} 
+                    onChange={this.handleSearchField} />
+            <button>search</button>
           </div>
           <div id="images">
             {images()}
