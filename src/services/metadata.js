@@ -1,5 +1,8 @@
 import axios from 'axios'
 
+//const baseURL = 'http://localhost:3002/api'
+const baseURL = '/api'
+
 const groom = (data) => {
 	let groomed = []
 	groomed.push(data[0].images[0].link)
@@ -11,7 +14,7 @@ const groom = (data) => {
 }
 
 const getAll = () => {
-	return axios.get('http://localhost:3002/api')
+	return axios.get(baseURL)
 			.then(response => { return groom(response.data) })
 			.catch(error => console.log("error in getAll in metadata"))
 }
