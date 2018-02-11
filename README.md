@@ -1,7 +1,10 @@
 # viral-images-client
 
-This is client-side (front-end) application to enjoy Imgur's 100 most viral images. Search feature included! 
+React-app for viral images from Imgur. Uses viral-images-server's API for backend.
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## Install and run
 
-https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings
+```
+npm install
+npm start
+```
