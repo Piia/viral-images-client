@@ -6,5 +6,5 @@ React-app for viral images from Imgur. Uses viral-images-server's API for backen
 
 ```
 npm install
-npm start
+npm run watch
 ```
